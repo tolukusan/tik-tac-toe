@@ -1,0 +1,22 @@
+/* Tablet and up */
+@media (min-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+    #board {
+        gap: 1.5rem;
+    }
+    .area-marker {
+        height: 150px;
+    }
+}
+
+/* Desktop and up */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 700px;
+    }
+    #board {
+        gap: 2rem;
+    }
+}

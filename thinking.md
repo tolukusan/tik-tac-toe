@@ -11,10 +11,10 @@
 -   [x] I'll use a matrix to read and write to the area.
 -   [x] I need to decide who the first player would be. I'll do it randomly, at the start, when they have both entered their names. I'll attach it to the Gameboard cause it runs once... wait a minute, I need the GameBoard to run once after the players have picked their names for this to work. okay then can i attach it to the players them selves? I guess... it would be a random number that gets compared at the start, the higher number is X, and the lower is O!
 
--  [x] before the 4th turn starts, we start checking for a winner, which can only be done from that point.
+-   [x] before the 4th turn starts, we start checking for a winner, which can only be done from that point.
 -   [x] We check for a winner after every player action from that point.
 -   [x] This means we can never have 2 winners.
-- [x] GUI: once a player clicks on the area, it updates the area, then moves to the next turn.
+-   [x] GUI: once a player clicks on the area, it updates the area, then moves to the next turn.
 
 ## Win Condition
 

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <!-- <link rel="stylesheet" href="./css/responsive.css" /> -->
+    </head>
+    <body>
+        <h1>Tic Tac Toe</h1>
+        <main class="container">
+            <div class="game">
+                <div class="setup">
+                    <input
+                        type="text"
+                        id="player1-name"
+                        placeholder="Player 1 Name"
+                    />
+                    <input
+                        type="text"
+                        id="player2-name"
+                        placeholder="Player 2 Name"
+                    />
+                    <input type="number" id="rounds" min="1" value="3" />
+                    <button id="start-game">Start Game</button>
+                </div>
+
+                <div class="score"></div>
+                <div class="player-turn"></div>
+
+                <div id="board">
+                    <button
+                        class="area-marker"
+                        data-row="0"
+                        data-col="0"
+                    ></button>
+                    <button
+                        class="area-marker"
+                        data-row="0"
+                        data-col="1"
+                    ></button>
+                    <button
+                        class="area-marker"
+                        data-row="0"
+                        data-col="2"
+                    ></button>
+                    <button
+                        class="area-marker"
+                        data-row="1"
+                        data-col="0"
+                    ></button>
+                    <button
+                        class="area-marker"
+                        data-row="1"
+                        data-col="1"
+                    ></button>
+                    <button
+                        class="area-marker"
+                        data-row="1"
+                        data-col="2"
+                    ></button>
+                    <button
+                        class="area-marker"
+                        data-row="2"
+                        data-col="0"
+                    ></button>
+                    <button
+                        class="area-marker"
+                        data-row="2"
+                        data-col="1"
+                    ></button>
+                    <button
+                        class="area-marker"
+                        data-row="2"
+                        data-col="2"
+                    ></button>
+                </div>
+
+                <button class="reset">Restart Board</button>
+            </div>
+        </main>
+        <script src="./index.js"></script>
+    </body>
+</html>

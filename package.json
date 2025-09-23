@@ -1,0 +1,30 @@
+{
+    "name": "tik-tac-toe",
+    "version": "1.0.0",
+    "description": "The odin project tic tac toe ",
+    "main": "index.js",
+    "scripts": {
+        "start": "lite-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/tolukusan/tik-tac-toe.git"
+    },
+    "keywords": [
+        "tic-tac-toe",
+        "game",
+        "javascript",
+        "odin-project",
+        "frontend"
+    ],
+    "author": "Tolu Afolayan (https://github.com/tolukusan)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tolukusan/tik-tac-toe/issues"
+    },
+    "homepage": "https://github.com/tolukusan/tik-tac-toe#readme",
+    "devDependencies": {
+        "lite-server": "^2.6.1"
+    }
+}
